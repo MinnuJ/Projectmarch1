@@ -1,0 +1,13 @@
+#LIST
+guest=['abit','minnu','diana','emil']
+print(guest[0])                      #display first value
+print(guest[2])                      #count from 0
+print(guest[-1])                     #backward counting starts from -1 / displays last value
+guest[3]='anjali'                    #replaces Emil with Anjali
+print(guest)
+guest.append('nandhu')               #add a value to the end
+print(guest)
+guest.remove('anjali')               #to remove a value 
+print(guest)
+del guest[3]                         #to remove a value
+print(guest)

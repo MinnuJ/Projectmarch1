@@ -1,0 +1,5 @@
+#to sort the list
+guest=['abit','minnu','diana']
+guest.sort()
+for person in guest:
+    print(person)
